@@ -12,7 +12,7 @@ pyautogui.press('Winleft')
 pyautogui.write('Brave')
 pyautogui.press('Enter')
 time.sleep(2)
-#link do google drive
+#link do google drive abaixo
 pyautogui.write('link')
 pyautogui.press('Enter')
 time.sleep(2)
