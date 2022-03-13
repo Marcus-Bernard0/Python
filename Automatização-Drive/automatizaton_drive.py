@@ -12,7 +12,8 @@ pyautogui.press('Winleft')
 pyautogui.write('Brave')
 pyautogui.press('Enter')
 time.sleep(2)
-pyautogui.write('https://drive.google.com/drive/u/3/folders/1NExrQs_yv8hxSdiEJwShFOySEOKwOGzo')
+#link do google drive
+pyautogui.write('link')
 pyautogui.press('Enter')
 time.sleep(2)
 
