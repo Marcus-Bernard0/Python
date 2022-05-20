@@ -1,4 +1,4 @@
-import numpy as np
+
 
 mensagem = "Inisira a operação que deseja"
 mensagem += "\n+ para adição"
