@@ -1,0 +1,29 @@
+print("Bem vindo ao jogo!")
+
+numero_secreto = 37
+total_tentativas = 5
+rodada = 1
+
+
+while rodada <= total_tentativas:
+    print(f"Tentativa {rodada} 'de' {total_tentativas}")
+    chute = int((input("Digite o número sorteado: ")))
+    acertou = chute == numero_secreto
+    maior = chute > numero_secreto
+    quase = chute == 36
+    menor = chute < numero_secreto
+
+    if acertou :
+        print("Motherfocker, você acertou")
+
+    else:
+        if maior:
+            print('Voce errou, seu chute foi maior!')
+        elif quase:
+          print('Voce está perto')
+        elif menor:
+            print('Voce errou, seu chute foi menor')
+
+    print("Fim")
+
+    rodada = rodada + 1
